@@ -1,0 +1,195 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: #1a1a1a;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  color: #1a1a1a;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.food-card {
+  background: #f8f9fa;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #e9ecef;
+}
+
+.recommend-button {
+  width: 100%;
+  padding: 16px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.recommend-button:hover:not(:disabled) {
+  background: #357abd;
+}
+
+.recommend-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.recommendation {
+  margin-top: 24px;
+  padding: 24px;
+  background: #f0f7ff;
+  border-radius: 12px;
+  border-left: 4px solid #4a90e2;
+}
+
+.recommendation-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.feedback-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #d0e4ff;
+}
+
+.feedback-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 16px 0;
+  color: #1a1a1a;
+}
+
+.food-selector {
+  margin-bottom: 20px;
+}
+
+.food-selector-label {
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 8px 0;
+}
+
+.food-selector-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.food-selector-button:hover {
+  border-color: #4a90e2;
+}
+
+.food-selector-button.selected {
+  background: #4a90e2;
+  color: white;
+  border-color: #4a90e2;
+}
+
+.feedback-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.feedback-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.feedback-button:hover {
+  background: #f6f8fa;
+  border-color: #4a90e2;
+}
+
+.feedback-success {
+  margin-top: 16px;
+  padding: 12px;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.preferences-section {
+  padding-top: 20px;
+  border-top: 1px solid #e9ecef;
+}
+
+.preferences-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.preference-tag {
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.preference-tag.like {
+  background: #d4edda;
+  color: #155724;
+}
+
+.preference-tag.dislike {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.history-section {
+  padding-top: 20px;
