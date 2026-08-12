@@ -193,3 +193,74 @@
 
 .history-section {
   padding-top: 20px;
+  border-top: 1px solid #e9ecef;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-item {
+  display: flex;
+  gap: 12px;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.history-date {
+  color: #666;
+  min-width: 90px;
+}
+
+.history-food {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.history-action {
+  color: #666;
+  margin-left: auto;
+}
+
+.error {
+  padding: 16px;
+  background: #f8d7da;
+  color: #721c24;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .app {
+    padding: 24px 16px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .recommendation-text {
+    font-size: 16px;
+  }
+
+  .feedback-buttons {
+    flex-direction: column;
+  }
+
+  .feedback-button {
+    width: 100%;
+  }
+}
